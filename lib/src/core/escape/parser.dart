@@ -1,10 +1,10 @@
-import 'package:xterm/src/core/color.dart';
-import 'package:xterm/src/core/mouse/mode.dart';
-import 'package:xterm/src/core/escape/handler.dart';
-import 'package:xterm/src/utils/ascii.dart';
-import 'package:xterm/src/utils/byte_consumer.dart';
-import 'package:xterm/src/utils/char_code.dart';
-import 'package:xterm/src/utils/lookup_table.dart';
+import 'package:shellwayz_terminal/src/core/color.dart';
+import 'package:shellwayz_terminal/src/core/mouse/mode.dart';
+import 'package:shellwayz_terminal/src/core/escape/handler.dart';
+import 'package:shellwayz_terminal/src/utils/ascii.dart';
+import 'package:shellwayz_terminal/src/utils/byte_consumer.dart';
+import 'package:shellwayz_terminal/src/utils/char_code.dart';
+import 'package:shellwayz_terminal/src/utils/lookup_table.dart';
 
 /// [EscapeParser] translates control characters and escape sequences into
 /// function calls that the terminal can handle.

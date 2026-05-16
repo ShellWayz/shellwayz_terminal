@@ -1,5 +1,5 @@
-import 'package:xterm/src/core/input/keytab/keytab_parse.dart';
-import 'package:xterm/src/core/input/keytab/keytab_token.dart';
+import 'package:shellwayz_terminal/src/core/input/keytab/keytab_parse.dart';
+import 'package:shellwayz_terminal/src/core/input/keytab/keytab_token.dart';
 
 const kDefaultKeytab = r'''
 # [README.default.Keytab] Default Keyboard Table
@@ -47,7 +47,7 @@ key Backspace  +Alt : "\x17"
 # that add the Backspace +Control rule
 key Backspace   -Control : "\x7f"
 
-# Match xterm behaviour: Backspace sends '^H' when Control is pressed
+# Match shellwayz_terminal behaviour: Backspace sends '^H' when Control is pressed
 # BS, hex \x08, \b
 key Backspace  +Control : "\b"
 

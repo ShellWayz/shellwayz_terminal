@@ -1,6 +1,6 @@
 import 'package:test/test.dart';
-import 'package:xterm/src/core/mouse/reporter.dart';
-import 'package:xterm/xterm.dart';
+import 'package:shellwayz_terminal/src/core/mouse/reporter.dart';
+import 'package:shellwayz_terminal/shellwayz_terminal.dart';
 
 void main() {
   group('MouseReporter', () {

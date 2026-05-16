@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:xterm/xterm.dart';
+import 'package:shellwayz_terminal/shellwayz_terminal.dart';
 
 void main() {
   group('TerminalController', () {

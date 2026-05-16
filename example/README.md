@@ -1,3 +1,3 @@
-# xterm.dart demo
+# shellwayz_terminal demo
 
-This package contains minimalistic xterm.dart examples.
+This package contains minimalistic shellwayz_terminal examples.

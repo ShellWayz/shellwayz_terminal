@@ -1,5 +1,5 @@
 import 'package:test/test.dart';
-import 'package:xterm/xterm.dart';
+import 'package:shellwayz_terminal/shellwayz_terminal.dart';
 
 void main() {
   group('Buffer.getText()', () {

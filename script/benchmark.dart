@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:xterm/xterm.dart';
+import 'package:shellwayz_terminal/shellwayz_terminal.dart';
 
 void main() {
   // BenchmarkWrite().run();

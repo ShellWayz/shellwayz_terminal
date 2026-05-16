@@ -1,5 +1,5 @@
 import 'package:test/test.dart';
-import 'package:xterm/core.dart';
+import 'package:shellwayz_terminal/core.dart';
 
 void main() {
   group('Terminal.inputHandler', () {

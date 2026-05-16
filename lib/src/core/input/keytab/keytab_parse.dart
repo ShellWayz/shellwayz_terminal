@@ -1,7 +1,7 @@
-import 'package:xterm/src/core/input/keytab/keytab.dart';
-import 'package:xterm/src/core/input/keytab/keytab_record.dart';
-import 'package:xterm/src/core/input/keytab/keytab_token.dart';
-import 'package:xterm/src/core/input/keytab/qt_keyname.dart';
+import 'package:shellwayz_terminal/src/core/input/keytab/keytab.dart';
+import 'package:shellwayz_terminal/src/core/input/keytab/keytab_record.dart';
+import 'package:shellwayz_terminal/src/core/input/keytab/keytab_token.dart';
+import 'package:shellwayz_terminal/src/core/input/keytab/qt_keyname.dart';
 
 class ParseError {}
 

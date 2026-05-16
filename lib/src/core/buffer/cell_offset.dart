@@ -1,4 +1,4 @@
-import 'package:xterm/src/core/buffer/range.dart';
+import 'package:shellwayz_terminal/src/core/buffer/range.dart';
 
 class CellOffset {
   final int x;

@@ -1,5 +1,5 @@
-import 'package:xterm/src/core/input/keys.dart';
-import 'package:xterm/src/core/input/keytab/keytab_escape.dart';
+import 'package:shellwayz_terminal/src/core/input/keys.dart';
+import 'package:shellwayz_terminal/src/core/input/keytab/keytab_escape.dart';
 
 enum KeytabActionType {
   input,

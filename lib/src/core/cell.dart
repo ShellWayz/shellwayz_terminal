@@ -1,4 +1,4 @@
-import 'package:xterm/src/utils/hash_values.dart';
+import 'package:shellwayz_terminal/src/utils/hash_values.dart';
 
 class CellData {
   CellData({

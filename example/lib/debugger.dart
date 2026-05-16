@@ -4,8 +4,8 @@ import 'dart:convert';
 import 'package:dartssh2/dartssh2.dart';
 import 'package:example/src/virtual_keyboard.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:xterm/utils.dart';
-import 'package:xterm/xterm.dart';
+import 'package:shellwayz_terminal/utils.dart';
+import 'package:shellwayz_terminal/shellwayz_terminal.dart';
 
 const host = 'localhost';
 const port = 22;
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CupertinoApp(
-      title: 'xterm.dart debugger',
+      title: 'shellwayz_terminal debugger',
       home: MyHomePage(),
     );
   }
